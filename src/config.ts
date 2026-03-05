@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://blog.040304.xyz",
+  author: "Xeron",
+  profile: "https://blog.040304.xyz/about",
+  desc: "𝑓𝑙𝑜𝑤 𝑤𝑖𝑡ℎ 𝑙𝑖𝑓𝑒 · 𝑒𝑥𝑝𝑒𝑐𝑡 𝑛𝑜𝑡ℎ𝑖𝑛𝑔",
+  title: "Xeron",
+  ogImage: "astropaper-og.jpg",
+  lightAndDarkMode: true,
+  postPerIndex: 4,
+  postPerPage: 10,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: true,
+    text: "编辑此页",
+    url: "https://github.com/Xeron2000/blog/edit/main/",
+  },
+  dynamicOgImage: true,
+  dir: "ltr",
+  lang: "zh-CN",
+  timezone: "Asia/Shanghai",
+} as const;
