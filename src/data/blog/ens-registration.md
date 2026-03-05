@@ -12,14 +12,17 @@ tags:
 description: ENS 域名注册完整指南，包括费用计算、注册流程和常见问题
 ---
 
+## 注册流程
 
-## Ens域名注册事项
+打开 [ENS](https://app.ens.domains/)，搜索域名，连接钱包（WalletConnect/MetaMask）
 
-打开[Ens](https://app.ens.domains/)，搜索想要的域名，比如说`test1234.eth`，我使用Binance的web3钱包，所以选择`WalletConnect`。也可以选择别的钱包，比如说MetaMask。建议一次注册5年以上，这样网络费只需支付一次，钱包里需要有以太坊主网的eth，别的链上的eth使用不了，一次最好多转一点eth，Ethereum(ERC20)网络转账手续费要4刀，多次转账损耗很多
+建议一次注册5年以上，网络费只需支付一次。钱包需要以太坊主网的 ETH，ERC20 转账手续费约 4 刀，一次多转点
 
-注册时勾选作为主名称使用会解析你的钱包地址，注册好域名之后可以添加个人资料，可以去`yourname.eth.xyz`查看，每次更新资料都会有gas费
+注册时勾选"作为主名称使用"会解析钱包地址。注册后可添加个人资料，在 `yourname.eth.xyz` 查看
 
-如果你要使用ens域名跳转静态博客网站之类的，可以用IPFS，将静态网站代码上传至IPFS然后填入ens域名的个人资料即可，也可以上传`index.html`跳转至你的网站
+## 绑定网站
+
+用 IPFS 上传静态网站代码，填入 ENS 个人资料。或上传跳转页面：
 
 ```html
 <!DOCTYPE html>
@@ -31,6 +34,7 @@ description: ENS 域名注册完整指南，包括费用计算、注册流程和
 </html>
 ```
 
-推荐使用[Fleek](https://fleek.xyz/)，使用IPNS链接方便后续更改，只需支付一次gas费
+## 访问方式
 
-之后就可以使用Brave，Opera访问你的域名`yourname.eth`，也可以在Firefox，Chrome使用`yourname.eth.limo`访问，比如说我的域名`xeron.eth`就可以使用`xeron.eth.limo`在Firefox访问
+- Brave/Opera：直接访问 `yourname.eth`
+- Firefox/Chrome：访问 `yourname.eth.limo`
