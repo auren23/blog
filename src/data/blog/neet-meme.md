@@ -1,6 +1,6 @@
 ---
 author: Xeron
-pubDatetime: 2026-03-06T00:00:00Z
+pubDatetime: 2026-03-06T00:00:00+08:00
 title: We Bought a Coin and Never Worked Again
 slug: neet-meme
 featured: false
